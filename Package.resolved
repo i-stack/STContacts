@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "stprojectbase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/i-stack/STProjectBase.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b32ebd92528f44a7506c4c3006c59c578f066297"
+      }
+    }
+  ],
+  "version" : 2
+}

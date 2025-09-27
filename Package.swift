@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "STContacts",
             dependencies: [.product(name: "STBase", package: "STProjectBase")],
-            path: "Sources",
+            path: "Sources"
         ),
     ],
     swiftLanguageVersions: [.v5]
