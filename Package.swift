@@ -14,13 +14,9 @@ let package = Package(
             targets: ["STContacts"]
         ),
     ],
-    dependencies: [
-        .package(url: "https://github.com/i-stack/STProjectBase.git", branch: "main")
-    ],
     targets: [
         .target(
             name: "STContacts",
-            dependencies: [.product(name: "STBase", package: "STProjectBase")],
             path: "Sources"
         ),
     ],
