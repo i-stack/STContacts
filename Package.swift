@@ -17,7 +17,10 @@ let package = Package(
     targets: [
         .target(
             name: "STContacts",
-            path: "Sources"
+            path: "Sources",
+            resources: [
+                .process("PrivacyInfo.xcprivacy")
+            ]
         ),
     ],
     swiftLanguageVersions: [.v5]
